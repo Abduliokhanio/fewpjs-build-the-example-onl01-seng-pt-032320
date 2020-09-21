@@ -14,7 +14,7 @@ for (let heart of hearts) {
 }
 
 function like(e) {
-  console.log
+  console.log(e)
   if (e.target.innerText === EMPTY_HEART) {
     mimicServerCall()
     .then(() => {
