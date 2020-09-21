@@ -7,9 +7,7 @@ const FULL_HEART = '♥'
 const modal = document.querySelector('#modal');
 const message = document.querySelector('#modal-message');
 
-
 let hearts = document.querySelectorAll(".like")
-
 
 for (let heart of hearts) {
   heart.addEventListener("click", like)
